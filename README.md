@@ -8,7 +8,7 @@ To students who read this message: Too easy
 This is the best assignment in the course (and the most difficult). \
 Harmony code is soooo bad, maybe it is the worst code I have ever seen \
 Design your code smartly and you will fail... because the harmony code used is sooooo..... well, don't want to say \
-This is the teacher who write the harmony code <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> \
+Refer to <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> \
 To students who read this message: Remember, no matter if you study with Mr.Phung or Mr.Duy, watch the video on Youtube and shut up. You code smart? &#8594; You die
 
 ### Assignment 4 (85 / 100)
