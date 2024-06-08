@@ -13,8 +13,8 @@ To students who read this message: Remember, no matter if you study with Mr.Phun
 
 ### Assignment 4 (85 / 100)
 Well-prepared init code \
-Emitter.py, Frame.py, MachineCode.py (excellent) \ 
-CodeGenerator.py (The init code left so much trash in there) \ 
+Emitter.py, Frame.py, MachineCode.py (excellent) \
+CodeGenerator.py (The init code left so much trash in there) \
 Harmony code is good, but too difficult \
 #### Notice: 
 ####    - "javac" is used to create .class files
