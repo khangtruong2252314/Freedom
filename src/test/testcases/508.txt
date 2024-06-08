@@ -1,0 +1,7 @@
+
+                func main()
+                    begin
+                        number a <- 0
+                        writeBool((a = 0) or (1 / a > 0))
+                    end
+                

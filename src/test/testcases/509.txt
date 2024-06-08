@@ -1,0 +1,19 @@
+
+                func foo(number a[3])
+                func print(number a[3])
+                    begin
+                    number i <- 0
+                    for i until i > 2 by 1
+                        writeNumber(a[i])
+                    end
+                func main()
+                    begin
+                        number a[3] <- [1, 2, 3]
+                        foo(a)
+                        print(a)
+                    end
+                func foo(number a[3])
+                    begin
+                        a[0] <- a[0] + 1
+                    end
+                

@@ -1,0 +1,13 @@
+
+        func foo(string a[2, 2])
+            begin
+                string s <- "x"
+                a[1, 1] <- s
+            end
+        func main()
+            begin 
+                string b[2, 2]
+                foo(b)
+                writeString(b[1, 1])
+            end
+        

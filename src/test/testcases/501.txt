@@ -1,0 +1,13 @@
+
+        func foo(number a[3], number b[3])
+        func main ()
+        begin
+            dynamic x
+            dynamic y
+            x <- [1, 2, 3]
+            y <- [4, 5, 6]
+            foo(x, y)
+        end
+        func foo(number a[3], number b[3])
+            writeNumber(a[1] + b[2])
+        

@@ -1,0 +1,13 @@
+
+        func foo(number n)
+            begin
+                if (n = 20)
+                    return n
+                else 
+                    return 20
+            end
+        func main()
+            begin
+                writeNumber(foo(7))
+            end
+        

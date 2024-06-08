@@ -1,0 +1,14 @@
+
+                func foo(number a, bool b)
+                begin
+                    if (b)
+                        begin
+                        return a + 1
+                        end
+                    return a
+                end
+                func main()
+                    begin
+                        writeNumber(foo(2, true))
+                    end
+                

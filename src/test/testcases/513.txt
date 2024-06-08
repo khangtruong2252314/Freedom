@@ -1,0 +1,17 @@
+
+                func foo()
+                    begin
+                        number i <- 0
+                        number j <- 0
+                        for i until i >= 3 by 1
+                            begin
+                                if (i = 1)
+                                    continue
+                                writeNumber(i)
+                            end
+                    end
+                func main()
+                    begin
+                        foo()
+                    end
+                

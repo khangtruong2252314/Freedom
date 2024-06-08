@@ -1,0 +1,22 @@
+
+                func foo(number n)
+                    begin
+                        writeNumber(n)
+                        if (n = 1)
+                        begin
+                            return
+                        end
+                        if (n % 2 = 0)
+                        begin
+                            foo(n / 2)
+                        end
+                        else
+                        begin
+                            foo(n * 3 + 1)
+                        end
+                    end
+                func main()
+                    begin
+                        foo(29)
+                    end
+                

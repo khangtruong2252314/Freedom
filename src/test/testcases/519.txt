@@ -1,0 +1,26 @@
+
+                dynamic x
+                func foo(number a[5])
+
+                func main()
+                    begin
+                    x <- [1, 2, 3, 4, 5]
+                    foo(x)
+                    end
+
+                func foo(number a[5])
+                    begin 
+                    number i
+                    for i until i > 5 by 1
+                        begin
+                            if (i = 5)
+                                break
+                            a[i] <- x[i] + a[i]
+                        end
+                    for i until i >= 5 by 1
+                        begin
+                            writeNumber(x[i]) 
+                        end
+                    end
+
+                

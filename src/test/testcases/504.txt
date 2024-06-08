@@ -1,0 +1,17 @@
+
+        func foo(number a[5], number n)
+            begin
+                if (n = 1)
+                    return a[0]
+                number k <- foo(a, n - 1)
+                if (a[n - 1] > k)
+                    return a[n - 1]
+                else 
+                    return k
+            end
+        func main()
+            begin
+                number a[5] <- [3, 9, -1, 2, 6]
+                writeNumber(foo(a, 5))
+            end
+        

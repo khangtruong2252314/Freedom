@@ -1,0 +1,13 @@
+
+        func foo(number a)
+            begin
+                if (a > 1)
+                    return a * foo(a - 1)
+                else
+                    return 1
+            end
+        func main()
+            begin
+            writeNumber(foo(4))
+            end
+        

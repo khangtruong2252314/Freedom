@@ -1,0 +1,102 @@
+
+#         input = """
+# func areDivisors(number num1, number num2)
+# return ((num1 % num2 = 0) or (num2 % num1 = 0))
+# func main()
+# begin
+# var num1 <- 3
+# var num2 <- 4
+# if (areDivisors(num1, num2)) writeString("Yes")
+# else writeString("No")
+# end
+
+#         """
+#         expect = "No\n"
+#         self.assertTrue(TestCodeGen.test(input, expect, 900))  
+    
+#         input = """
+# func areDivisors(number num1, number num2)
+# return ((num1 % num2 = 0) or (num2 % num1 = 0))
+# func main()
+# begin
+# var num1 <- 2
+# var num2 <- 4
+# if (areDivisors(num1, num2)) writeString("Yes")
+# else writeString("No")
+# end
+
+#         """
+#         expect = "Yes\n"
+#         self.assertTrue(TestCodeGen.test(input, expect, 901))  
+        
+#         input = """
+# func isPrime(number x)
+# func main()
+# begin
+# number x <- 7
+# if (isPrime(x)) writeString("Yes")
+# else writeString("No")
+# end
+# func isPrime(number x)
+# begin
+# if (x <= 1) return false
+# var i <- 2
+# for i until i > x / 2 by 1
+# begin
+# if (x % i = 0) return false
+    
+# end
+# return true
+# end
+
+#         """
+#         expect = "Yes\n"
+#         self.assertTrue(TestCodeGen.test(input, expect, 902))
+
+#         input = """
+#     func isPrime(number x)
+#     func main()
+#     begin
+#     number x <- 59
+#     if (isPrime(x)) writeString("Yes")
+#     else writeString("No")
+#     end
+#     func isPrime(number x)
+#     begin
+#     if (x <= 1) return false
+#     var i <- 2
+#     for i until i > x / 2 by 1
+#     begin
+#     if (x % i = 0) return false
+        
+#     end
+#     return true
+#     end
+
+#             """
+#         expect = "Yes\n"
+#         self.assertTrue(TestCodeGen.test(input, expect, 903))
+            
+#         input = """
+# func isPrime(number x)
+# func main()
+# begin
+# number x <- -9
+# if (isPrime(x)) writeString("Yes")
+# else writeString("No")
+# end
+# func isPrime(number x)
+# begin
+# if (x <= 1) return false
+# var i <- 2
+# for i until i > x / 2 by 1
+# begin
+# if (x % i = 0) return false
+    
+# end
+# return true
+# end
+
+#         """
+#         expect = "No\n"
+#         self.assertTrue(TestCodeGen.test(input, expect, 904))

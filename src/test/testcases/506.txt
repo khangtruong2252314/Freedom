@@ -1,0 +1,27 @@
+
+        func foo(number n)
+            begin
+                number i <- 1
+                for i until i >= n by 1
+                    begin
+                    bool flag <- false
+                    number j <- n - 1
+                    for j until j < i by -1
+                        begin
+                            if (n % (i * j) = 0)
+                                begin
+                                    flag <- true
+                                    break
+                                end 
+                        end
+                    if (flag) 
+                        return flag
+                    writeNumber(i)
+                    end
+                return false
+            end
+        func main()
+            begin
+                writeBool(foo(7))
+            end
+        

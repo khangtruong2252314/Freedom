@@ -1,0 +1,18 @@
+
+                func gcd(number a, number b)
+                    begin
+                        if (b = 0)
+                            return a 
+                        return gcd(b, a % b)
+                    end
+                func lcm(number a, number b)
+                    begin
+                        return a * b / gcd(a, b)
+                    end
+                func main()
+                    begin
+                        number a <- 196
+                        number b <- 14
+                        writeNumber(gcd(a, b) + lcm(a, b))
+                    end
+                
