@@ -20,6 +20,8 @@ Harmony code is good, but too difficult
 #### Notice: 
 ####    - "javac" is used to create .class files
 ####    - Use Intellij IDEA to see java byte code for a real Java program
+![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/b0e33a90-6fb4-41ec-8aa1-4ae5df6f3b61)
+
 
 Final Assignment score: 7 / 10
 
