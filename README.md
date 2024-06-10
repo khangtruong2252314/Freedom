@@ -9,7 +9,8 @@ This is the best assignment in the course (and the most difficult). \
 Harmony code is soooo bad, maybe it is the worst code I have ever seen \
 Design your code smartly and you will fail... because the harmony code used is sooooo..... well, don't want to say \
 Refer to <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> \
-To students who read this message: Remember, no matter if you study with Mr.Phung or Mr.Duy, watch the video on Youtube and done. You code smart? &#8594; You die of harmony \
+To students who read this message: Remember, no matter if you study with Mr.Phung or Mr.Duy, watch the video on Youtube and done. You code smart? &#8594; \
+You die of harmony \
 Every thing else... gud. \
 Weakness of this project code: Ignore some (super complex array)
 
