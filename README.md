@@ -1,7 +1,7 @@
 # You know what should be here :))))
 Refer to: 
-* <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> * \
-* <https://www.youtube.com/watch?v=dQw4w9WgXcQ> *
+* <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> 
+* <https://www.youtube.com/watch?v=dQw4w9WgXcQ> 
 ### Assignment 1 (91 / 100, 99 / 100), 2 (100 / 100)
 Nah, nothing to say \
 To students who read this message: Too easy 
