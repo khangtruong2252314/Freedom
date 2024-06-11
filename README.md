@@ -26,7 +26,7 @@ Harmony code is good, but too difficult
 ####    - "javac" is used to create .class files from .java files
 ####    - Use Intellij IDEA to see java byte code for a real Java program
 Weakness of this project code: 
-* Haven't implement code generating for some *multi-dimension array*, case: *int arr[100, 100]; int b = arr[1]* fail
+* Haven't implement code generating for some *multi-dimensional array*, case: *int arr[100, 100]; int b = arr[1]* fail
 * Code left so much trash, hehe. For example: LegendaryVisitor, ready for cheating, but I didn't cheat 
 ![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/b0e33a90-6fb4-41ec-8aa1-4ae5df6f3b61)
 
