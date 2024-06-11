@@ -33,7 +33,7 @@ Weakness of this project code:
 
 
 Final Assignment score: 7 / 10 \
-Oh yeah, I knew that if I fix the bugs in those assignments, my score would still be the same :)))) 
+Oh yeah, I knew that if I had fixed the bugs in those assignments, my score would still be the same :)))) 
 
 For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
  
