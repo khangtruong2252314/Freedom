@@ -7,7 +7,7 @@ Nah, nothing to say \
 To students who read this message: Too easy 
 
 ### Assignment 3 (71 / 100)
-This is the best assignment in the course (and the most difficult). \
+This is the best assignment in the course (and the most difficult cuz you are going to implement everything by yourself :)))))). \
 Harmony code is soooo bad, maybe it is the worst code I have ever seen \
 Design your code smartly and you will fail... because the harmony code used is sooooo..... well, don't want to say \
 To students who read this message: Remember, no matter if you study with Mr.Phung or Mr.Duy, watch the video on Youtube and done. \
