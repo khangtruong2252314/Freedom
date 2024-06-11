@@ -14,8 +14,8 @@ To students who read this message: Remember, no matter if you study with Mr.Phun
 You code smart? &#8594; You die of harmony \
 Every thing else... gud. \
 Weakness of this project code: 
-* Ignore some (super complex array) cases
-* Should not be the Variable_.Exception, it is redundant, do not make similar mistake
+* Ignore some (super complex array) cases (too lazy to implement) :)))))
+* Should not be the Variable_.Exception, it is redundant, do not make similar mistake :((((
 
 ### Assignment 4 (85 / 100)
 Well-prepared init code \
@@ -25,13 +25,15 @@ Harmony code is good, but too difficult
 #### Notice: 
 ####    - "javac" is used to create .class files from .java files
 ####    - Use Intellij IDEA to see java byte code for a real Java program
-Weakness of this project code: 
-* Haven't implement code generating for some *multi-dimensional array*, case: *int arr[100, 100]; int b = arr[1]* fail
-* Code left so much trash, hehe. For example: LegendaryVisitor, ready for cheating, but I didn't cheat 
 ![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/b0e33a90-6fb4-41ec-8aa1-4ae5df6f3b61)
 
+Weakness of this project code: 
+* Haven't implement code generating for some *multi-dimensional array*, case: *int arr[100, 100]; int b = arr[1]* fail
+* Trash in code, hehe. For example: LegendaryVisitor, ready for cheating, but I didn't cheat 
 
-Final Assignment score: 7 / 10
+
+Final Assignment score: 7 / 10 \
+Oh yeah, I knew that if I fix the bugs in those assignments, my score would still be the same :)))) 
 
 For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
  
