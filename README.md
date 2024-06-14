@@ -36,4 +36,6 @@ Final Assignment score: 7 / 10 \
 Oh yeah, I knew that if I had fixed the bugs in those assignments, my score would still be the same :)))) 
 
 For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
+
+### Final thing to say: never put so much effort on this assignment, 50% of the testcases is enough, since you will never get away with Harmony.
  
