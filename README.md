@@ -37,5 +37,5 @@ Oh yeah, I knew that if I had fixed the bugs in those assignments, my score woul
 
 For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
 
-### Final thing to say: never put so much effort on this assignment, 50% of the testcases is enough, since you will never get away with Harmony.
+### Final thing to say: never put so much effort on assignment, 50% of the testcases is enough, since you will never get away with Harmony.
  
