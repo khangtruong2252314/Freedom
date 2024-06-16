@@ -2,7 +2,6 @@
 Refer to: 
 * <https://www.youtube.com/watch?v=atkRs4FhdBM&list=PLTpNwHSD94uv-fEGdAHZURE-fvp9pBOTp> 
 * <https://www.youtube.com/watch?v=dQw4w9WgXcQ>
-![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/d916601b-a42a-44ba-ab87-a204b6e0a456)
 
 ### Assignment 1 (91 / 100, 99 / 100), 2 (100 / 100)
 Nah, nothing to say \
@@ -44,5 +43,7 @@ Some more:
 * Mr.Duy is more likely to write the harmony exam
 
 ### Final thing to say: never put so much effort on assignment, 50% of the testcases is enough, since you will never get away with Harmony.
+
+![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/d916601b-a42a-44ba-ab87-a204b6e0a456)
 
  
