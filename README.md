@@ -37,5 +37,10 @@ Oh yeah, I knew that if I had fixed the bugs in those assignments, my score woul
 
 For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
 
+Some more:
+* Mr.Phung is more likely to talk about core knowledge in the course - of course very important, but he doesn't really care about harmony
+* Mr.Duy is more likely to write the harmony exam
+
 ### Final thing to say: never put so much effort on assignment, 50% of the testcases is enough, since you will never get away with Harmony.
+
  
