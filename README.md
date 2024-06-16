@@ -44,7 +44,7 @@ Some more:
 
 ### Final thing to say: never put so much effort on assignment, 50% of the testcases is enough, since you will never get away with Harmony.
 <p align="center">
-![image](https://github.com/khangtruong2252314/Freedom/assets/121275296/d916601b-a42a-44ba-ab87-a204b6e0a456)
+<img src="https://github.com/khangtruong2252314/Freedom/assets/121275296/d916601b-a42a-44ba-ab87-a204b6e0a456">
 </p>
 
  
