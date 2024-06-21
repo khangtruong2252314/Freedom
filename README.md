@@ -15,7 +15,7 @@ Design your code smartly and you will fail... because the harmony code used is s
 To students who read this message: Remember, no matter if you study with Mr.Phung or Mr.Duy, watch the video on Youtube and done. \
 You code smart? &#8594; You die of harmony \
 Every thing else... gud. \
-I have a free code for type 2 programming code, quite difficult and different from what Mr.Duy taught (Mr.Phung don't teach the framework, we do what we want in the programming code). \
+I have a free code for type 2 programming code, quite difficult to use (need to use the HTML file) and different from what Mr.Duy taught (Mr.Phung won't teach the framework, we do what we want in the programming code). \
 Weakness of this project code: 
 * Ignore some (super complex array) cases (too lazy to implement) :)))))
 * Should not be the Variable_.Exception, it is redundant, do not make similar mistake :((((
