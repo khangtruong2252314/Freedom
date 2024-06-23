@@ -39,8 +39,6 @@ Weakness of this project code:
 Final Assignment score: 7 / 10 \
 Oh yeah, I knew that if I had fixed the bugs in those assignments, my score would still be the same :)))) 
 
-For more example, refer to <https://github.com/hieukien503/PPL-HK222/tree/main>
-
 Some more:
 * Mr.Phung is more likely to talk about core knowledge in the course - of course very important, but he doesn't really care about harmony
 * Mr.Duy is more likely to write the harmony exam
