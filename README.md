@@ -6,10 +6,14 @@ Refer to:
 * <https://www.youtube.com/watch?v=dQw4w9WgXcQ>
 
 ### Assignment 1 (91 / 100, 99 / 100), 2 (100 / 100)
+Assignment 1: ~ 4 days \
+Assignment 2: ~ 1 week \
 Nah, nothing to say \
 To students who read this message: Too easy 
 
 ### Assignment 3 (71 / 100)
+Coding the backbone: 3 days \
+Debugging: ~2 weeks \
 This is the best assignment in the course (and the most difficult cuz you are going to implement everything by yourself :)))))). \
 Harmony code is soooo bad, maybe it is the worst code I have ever seen \
 Design your code smartly and you will fail... because the harmony code used is sooooo..... well, don't want to say \
@@ -17,11 +21,13 @@ To students who read this message: Remember, no matter if you study with Mr.Phun
 You code smart? &#8594; You die of harmony \
 Every thing else... gud. \
 I have a free code for type 2 programming code, quite difficult to use (need to use the HTML file) and different from what Mr.Duy taught (Mr.Phung won't teach the framework, we do what we want in the programming code). \
+But still no match for me :)))) \
 Weakness of this project code: 
 * Ignore some (super complex array) cases (too lazy to implement) :)))))
 * Should not be the Variable_.Exception, it is redundant, do not make similar mistake :((((
 
 ### Assignment 4 (85 / 100)
+Coding + Debugging: ~ 1 week \
 Well-prepared init code \
 Emitter.py, Frame.py, MachineCode.py (excellent) \
 CodeGenerator.py (The init code left so much trash in there) \
