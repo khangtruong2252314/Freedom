@@ -6,8 +6,8 @@ Refer to:
 * <https://www.youtube.com/watch?v=dQw4w9WgXcQ>
 
 ### Assignment 1 (91 / 100, 99 / 100), 2 (100 / 100)
-Assignment 1: ~ 4 days \
-Assignment 2: ~ 1 week \
+Assignment 1: ~ 1 day \
+Assignment 2: ~ 1 day \
 Nah, nothing to say \
 To students who read this message: Too easy 
 
