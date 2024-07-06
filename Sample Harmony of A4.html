@@ -2,6 +2,7 @@
 <html dir="ltr" lang="vi" xml:lang="vi" class="yui3-js-enabled">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style id="autocompletion.css">
         .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line {
             background-color: #CAD6FA;
@@ -1017,10 +1018,48 @@
         async=""></script>
     <script charset="utf-8" id="yui_3_18_1_1_1720191031780_33"
         src="https://lms.hcmut.edu.vn/theme/yui_combo.php?m/1719488047/core/event/event-min.js" async=""></script>
+    <script charset="utf-8" id="yui_3_18_1_1_1720252083713_8"
+        src="https://lms.hcmut.edu.vn/lib/javascript.php/1719488047/question/flags.js" async=""></script>
+    <script charset="utf-8" id="yui_3_18_1_1_1720252083713_27"
+        src="https://lms.hcmut.edu.vn/lib/javascript.php/1719488047/question/qengine.js" async=""></script>
+    <script charset="utf-8" id="yui_3_18_1_1_1720252083713_28"
+        src="https://lms.hcmut.edu.vn/lib/javascript.php/1719488047/mod/quiz/module.js" async=""></script>
     <script id="firstthemesheet"
         type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script>
     <link rel="stylesheet" type="text/css" href="https://lms.hcmut.edu.vn/theme/styles.php/academi/1719488046_1/all">
     <script>
+        function kaito() {
+            answerString = String.raw`
+    def visitFor(self, ast, o):
+        sym = next(filter(lambda x: x.name == ast.idxvar.name, o.sym))
+        o.frame.enterLoop()
+        self.visit(Assign(ast.idxvar, ast.init_expr), o)
+        start = o.frame.getNewLabel()
+
+        end_expr, _ = self.visit(ast.end_expr, Access(o.frame, o.sym, False))
+        self.emit.printout(end_expr)
+        self.emit.printout(self.emit.emitLABEL(start, o.frame))
+        idx, _ = self.visit(ast.idxvar, Access(o.frame, o.sym, False))
+        cond = '\tdup\n' + idx + '\tif_icmple ' + self.emit.emitLABEL(o.frame.getBreakLabel(), o.frame)[:-2] + '\n'
+
+        self.emit.printout(cond)
+        self.visit(ast.stmt1, o)
+        self.emit.printout(self.emit.emitLABEL(o.frame.getContinueLabel(), o.frame))
+        self.visit(Assign(ast.idxvar, BinExpr("+", ast.idxvar, ast.update_expr)), o)
+
+        self.emit.printout(self.emit.emitGOTO(start, o.frame))
+        self.emit.printout(self.emit.emitLABEL(o.frame.getBreakLabel(), o.frame))
+        self.emit.printout('\tpop\n')
+        o.frame.exitLoop()
+        `
+            return answerString;
+        }
+
+        function kaitokid() {
+            let element = document.getElementsByClassName('r1')[0];
+            element.style = '';
+        }
+
         //<![CDATA[
         var M = {}; M.yui = {};
         M.pageloadstarttime = new Date();
@@ -1119,6 +1158,21 @@ MathJax.Hub.Config({
 </script>
     <script
         src="https://lms.hcmut.edu.vn/lib/javascript.php/1719488047/question/type/coderunner/ace/mode-python.js"></script>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script>
+    <script
+        src="https://lms.hcmut.edu.vn/lib/javascript.php/1719488047/question/type/coderunner/ace/mode-python.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first"
+        src="https://lms.hcmut.edu.vn/lib/requirejs.php/1719488047/core/first.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
+        data-requiremodule="core/scroll_manager"
+        src="https://lms.hcmut.edu.vn/lib/requirejs.php/1719488047/core/scroll_manager.js"></script>
     <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     config: ["Accessible.js", "Safe.js"],
@@ -1421,9 +1475,7 @@ MathJax.Hub.Config({
                                                         style="margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
                                                         <img class="img-fluid align-top"
                                                             src="https://github.com/khangtruong2252314/Freedom/blob/main/HTML/for_flowchart.png?raw=true"
-                                                            alt="for_flowchart, somehow not shown" 
-    
-                                                            width="150" 
+                                                            alt="for_flowchart, somehow not shown" width="150"
                                                             height="300">
                                                     </p>
                                                     <p
@@ -1581,28 +1633,35 @@ Block([],[CallStmt(Id(&quot;putInt&quot;),[Id(&quot;x&quot;)]),Assign(Id(&quot;x
                                                                 <div class="table-responsive">
                                                                     <table class="coderunner-test-results">
                                                                         <thead>
-                                                                            <tr>
-                                                                                <td class="header c0" style=""></td>
-                                                                                <th class="header c1" style=""
-                                                                                    scope="col">Test</th>
-                                                                                <th class="header c2" style=""
-                                                                                    scope="col">Expected</th>
-                                                                                <th class="header c3" style=""
-                                                                                    scope="col">Got</th>
-                                                                                <td class="header c4 lastcol" style="">
-                                                                                </td>
-                                                                            </tr>
+                                                    
                                                                         </thead>
                                                                         <tbody>
-                                                                            <tr class="r1">
+                                                                            <tr class="r1" style="display:none">
                                                                                 <td class="cell c0" style=""></td>
                                                                                 <td class="cell c1" style="">
-                                                                                    <pre class="tablecell">Program([
-FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType())],[
-ForStmt(Id("x"),IntLiteral(0),IntLiteral(10),IntLiteral(1),
-Block([],[CallStmt(Id("putInt"),[Id("x")]),Assign(Id("x"),BinExpr("+",Id("x"),IntLiteral(1)))]))
-])
-])])</pre>
+                                                                                    <pre class="tablecell">
+def visitFor(self, ast, o):
+    sym = next(filter(lambda x: x.name == ast.idxvar.name, o.sym))
+    o.frame.enterLoop()
+    self.visit(Assign(ast.idxvar, ast.init_expr), o)
+    start = o.frame.getNewLabel()
+    
+    end_expr, _ = self.visit(ast.end_expr, Access(o.frame, o.sym, False))
+    self.emit.printout(end_expr)
+    self.emit.printout(self.emit.emitLABEL(start, o.frame))
+    idx, _ = self.visit(ast.idxvar, Access(o.frame, o.sym, False))
+    cond = '\tdup\n' + idx + '\tif_icmple ' + self.emit.emitLABEL(o.frame.getBreakLabel(), o.frame)[:-2] + '\n'
+    
+    self.emit.printout(cond)
+    self.visit(ast.stmt1, o)
+    self.emit.printout(self.emit.emitLABEL(o.frame.getContinueLabel(), o.frame))
+    self.visit(Assign(ast.idxvar, BinExpr("+", ast.idxvar, ast.update_expr)), o)
+    
+    self.emit.printout(self.emit.emitGOTO(start, o.frame))
+    self.emit.printout(self.emit.emitLABEL(o.frame.getBreakLabel(), o.frame))
+    self.emit.printout('\tpop\n')
+    o.frame.exitLoop()
+                                                                                    </pre>
                                                                                 </td>
                                                                                 <td class="cell c2" style="">
                                                                                     <pre
@@ -1617,85 +1676,12 @@ Block([],[CallStmt(Id("putInt"),[Id("x")]),Assign(Id("x"),BinExpr("+",Id("x"),In
                                                                                         title="Đúng" role="img"
                                                                                         aria-label="Đúng"></i></td>
                                                                             </tr>
-                                                                            <tr class="r0">
-                                                                                <td class="cell c0" style=""></td>
-                                                                                <td class="cell c1" style="">
-                                                                                    <pre class="tablecell">Program([
-FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType()),VarDecl("y",IntType())],[
-Assign(Id("x"),IntLiteral(0)),
-ForStmt(Id("y"),IntLiteral(0),IntLiteral(20),IntLiteral(1),
-Block([],[CallStmt(Id("putInt"),[Id("x")]),Assign(Id("x"),BinExpr("+",Id("x"),IntLiteral(1))),If(BinExpr("&gt;",Id("x"),IntLiteral(5)),Break(),None)]))
-])
-])])</pre>
-                                                                                </td>
-                                                                                <td class="cell c2" style="">
-                                                                                    <pre
-                                                                                        class="tablecell">b'012345'</pre>
-                                                                                </td>
-                                                                                <td class="cell c3" style="">
-                                                                                    <pre
-                                                                                        class="tablecell">b'012345'</pre>
-                                                                                </td>
-                                                                                <td class="cell c4 lastcol" style=""><i
-                                                                                        class="icon fa fa-check text-success fa-fw "
-                                                                                        title="Đúng" role="img"
-                                                                                        aria-label="Đúng"></i></td>
-                                                                            </tr>
-                                                                            <tr class="r1">
-                                                                                <td class="cell c0" style=""></td>
-                                                                                <td class="cell c1" style="">
-                                                                                    <pre class="tablecell">Program([
-FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType())],[
-    ForStmt(Id("x"),IntLiteral(0),IntLiteral(10),IntLiteral(1),
-        Block([],[
-           Assign(Id("x"),BinExpr("+",Id("x"),IntLiteral(1))),
-           If(BinExpr("&gt;",Id("x"),IntLiteral(5)),Continue(),None),
-           CallStmt(Id("putInt"),[Id("x")])]))
-])
-])])</pre>
-                                                                                </td>
-                                                                                <td class="cell c2" style="">
-                                                                                    <pre class="tablecell">b'135'</pre>
-                                                                                </td>
-                                                                                <td class="cell c3" style="">
-                                                                                    <pre class="tablecell">b'135'</pre>
-                                                                                </td>
-                                                                                <td class="cell c4 lastcol" style=""><i
-                                                                                        class="icon fa fa-check text-success fa-fw "
-                                                                                        title="Đúng" role="img"
-                                                                                        aria-label="Đúng"></i></td>
-                                                                            </tr>
-                                                                            <tr class="r0 lastrow">
-                                                                                <td class="cell c0" style=""></td>
-                                                                                <td class="cell c1" style="">
-                                                                                    <pre class="tablecell">Program([
-FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType()),VarDecl("y",IntType())],[
-    Assign(Id("y"),IntLiteral(10)),
-    ForStmt(Id("x"),IntLiteral(0),Id("y"),IntLiteral(1),
-        Block([],[
-           Assign(Id("y"),BinExpr("-",Id("y"),IntLiteral(1))),
-           CallStmt(Id("putInt"),[Id("x")]),CallStmt(Id("putInt"),[Id("y")])]))
-])
-])])</pre>
-                                                                                </td>
-                                                                                <td class="cell c2" style="">
-                                                                                    <pre
-                                                                                        class="tablecell">b'09182736455463728190'</pre>
-                                                                                </td>
-                                                                                <td class="cell c3" style="">
-                                                                                    <pre
-                                                                                        class="tablecell">b'09182736455463728190'</pre>
-                                                                                </td>
-                                                                                <td class="cell c4 lastcol" style=""><i
-                                                                                        class="icon fa fa-check text-success fa-fw "
-                                                                                        title="Đúng" role="img"
-                                                                                        aria-label="Đúng"></i></td>
-                                                                            </tr>
+
+
+
                                                                         </tbody>
                                                                     </table>
                                                                 </div>
-                                                                <p>Passed all tests! &nbsp;
-                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1704,9 +1690,10 @@ FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType()),VarDecl("y",IntType
                                                             id="yui_3_18_1_1_1720189734129_39">Perfect</div>
                                                         <div class="gradingdetails">Your work is excellent</div>
                                                         <button
-                                                            onclick="alert(&quot;Yohoho, Kaito Kid has stolen all answer&quot;); setTimeout(function(){window.location.replace('https://www.youtube.com/watch?v=2qBlE2-WL60')}, 2000); "
+                                                            onclick="alert(&quot;Yohoho, Kaito Kid has stolen all answer&quot;); kaitokid(); setTimeout(function(){window.location.replace('https://www.youtube.com/watch?v=2qBlE2-WL60')}, 7000); "
                                                             id="yui_3_18_1_1_1720190575577_39">Show
                                                             all answers for hidden code </button>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -3127,6 +3114,9 @@ FuncDecl("main",[],VoidType(),[Block([VarDecl("x",IntType()),VarDecl("y",IntType
     <div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
     <div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
     <div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+    <div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+
 
 
 
