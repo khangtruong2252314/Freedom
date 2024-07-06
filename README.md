@@ -41,7 +41,7 @@ Weakness of this project code:
 * Haven't implement code generating for some *multi-dimensional array*, case: *int arr[100, 100]; int b = arr[1]* fail
 * Trash in code, hehe. For example: LegendaryVisitor, ready for cheating, but I didn't cheat 
 
-#### There is a HTML file that mimic the style of the Harmony assignment 4, you can check the HTML file I left in this repository
+### There is a HTML file that mimic the style of the Harmony assignment 4, you can check the HTML file I left in this repository, download to use
 
 Final Assignment score: 7 / 10 \
 Oh yeah, I knew that if I had fixed the bugs in those assignments, my score would still be the same :)))) 
