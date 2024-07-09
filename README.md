@@ -26,7 +26,7 @@ Weakness of this project code:
 * Ignore some (super complex array) cases (too lazy to implement) :)))))
 * Should not be the Variable_.Exception, it is redundant, do not make similar mistake :((((
 ### Tips:
-* In the beginning of coding progress, remember to classify the AST node into 3 subcategories: 1) Expression, 2) Statement, 3) Declaration
+* In the beginning of coding progress, remember to classify the AST nodes into 3 subcategories: 1) Expression, 2) Statement, 3) Declaration
 
 ### Assignment 4 (85 / 100)
 Coding + Debugging: ~ 1 week \
