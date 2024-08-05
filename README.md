@@ -56,7 +56,8 @@ Some more:
 <p align="center">
 <img src="https://github.com/khangtruong2252314/Freedom/assets/121275296/d916601b-a42a-44ba-ab87-a204b6e0a456">
 </p>
-Our sponsor: \
+Our sponsor: 
+
 <a href="https://www.youtube.com/watch?v=2qBlE2-WL60">https://s.shopee.vn/2aKqXYG7A</a>
 
  
