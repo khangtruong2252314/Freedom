@@ -58,6 +58,6 @@ Some more:
 </p>
 Our sponsor: 
 
-<a href="https://www.youtube.com/watch?v=2qBlE2-WL60">https://s.shopee.vn/2aKqXYG7A</a>
+<a href="https://www.youtube.com/watch?v=2qBlE2-WL60">httpz://s.shopee.vn/2aKnXYG7A</a>
 
  
