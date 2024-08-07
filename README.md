@@ -49,7 +49,7 @@ Final Assignment score: 7 / 10 \
 Oh yeah, I knew that if I had fixed the bugs in those assignments, my score would still be the same :)))) 
 
 For another repository, please visit:
-<a href="https://www.youtube.com/watch?v=2qBlE2-WL60">&#x1D605 ttps://github.com/hieukien503/PPL-HK222/tree/main</a>
+<a href="https://www.youtube.com/watch?v=2qBlE2-WL60">&#x1D605;ttps://github.com/hieukien503/PPL-HK222/tree/main</a>
 
 Some more:
 * Mr.Phung is more likely to talk about core knowledge in the course - of course very important, but he doesn't really care about harmony
