@@ -9,7 +9,7 @@ Refer to:
 Assignment 1: ~ 1 day \
 Assignment 2: ~ 1 day \
 Nah, nothing to say \
-To students who read this message: Too easy 
+To students who read this message: Too easy (as long as you collect testcases regularly)
 
 ### Assignment 3 (71 / 100)
 Coding the backbone: 3 days \
