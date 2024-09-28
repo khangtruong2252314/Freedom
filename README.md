@@ -11,7 +11,7 @@ Assignment 2: ~ 1 day \
 Nah, nothing to say \
 To students who read this message: Pretty easy (as long as you collect testcases regularly or cross check. The latter should be better)
 
-### Assignment 3 (71 / 100)
+### Assignment 3 (> 70 / 100)
 Coding the backbone: 3 days \
 Debugging: ~2 weeks \
 This is the best assignment in the course (and the most difficult cuz you are going to implement everything by yourself :)))))). \
@@ -28,7 +28,7 @@ Weakness of this project code:
 ### Tips:
 * In the beginning of coding progress, remember to classify the AST nodes into 3 subcategories: 1) Expression, 2) Statement, 3) Declaration
 
-### Assignment 4 (85 / 100)
+### Assignment 4 (> 70 / 100)
 Coding + Debugging: ~ 1 week \
 Well-prepared init code \
 Emitter.py, Frame.py, MachineCode.py (excellent) \
