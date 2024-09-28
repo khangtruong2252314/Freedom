@@ -28,7 +28,7 @@ Weakness of this project code:
 ### Tips:
 * In the beginning of coding progress, remember to classify the AST nodes into 3 subcategories: 1) Expression, 2) Statement, 3) Declaration
 
-### Assignment 4 (> 70 / 100)
+### Assignment 4 (> 80 / 100)
 Coding + Debugging: ~ 1 week \
 Well-prepared init code \
 Emitter.py, Frame.py, MachineCode.py (excellent) \
