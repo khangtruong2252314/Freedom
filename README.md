@@ -10,6 +10,7 @@ Assignment 1: ~ 1 day \
 Assignment 2: ~ 1 day \
 Nah, nothing to say \
 To students who read this message: Pretty easy (as long as you collect testcases regularly or cross check. The latter should be better)
+Assignment 2 (as you see my stupid code) is very confusing and the first version is only (33/100) which, is later regraded (I won't tell further about this) and stay (100 / 100)
 
 ### Assignment 3 (> 70 / 100)
 Coding the backbone: 3 days \
